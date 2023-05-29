@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(22, 21, 21);
+}
+
+
+.container {
+   position: relative;
+}
+
+h1 {
+    display: inline;
+    text-align: center;
+    bottom: -150%;
+    transform: (-50%, 50%);
+    position: absolute;
+    margin-top: 20px;
+    font-size: 60px;
+    left: 35%;
+    color: white;
+}
+
+.again {
+    width: 200px;
+    height: 70px;
+    font-size: 30px;
+    padding: 0 20px;
+    margin-left: 10px;
+    margin-top: 20px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+hr {
+    width: 100%;
+    position: absolute;
+    bottom: -400%;
+    font-weight: bold;
+    padding: 5px;
+    background-color: white;
+}
+.guess-box {
+    width: 100px;
+    background-color: azure;
+    height: 120px;
+    position: absolute;
+    top: 380px;
+    right: 500px;
+    width: 150px;
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    font-size: 90px;
+}
+
+.between {
+    position: absolute;
+    top: 0;
+    right: 5px;
+    color: white;
+    font-size: 30px;
+    margin-top: 10px;
+    height: 10px;
+}
+
+
+.second-half-container {
+    position: relative;   
+}
+
+.start-guessing {
+    border: 3px solid white;
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    bottom: -580px;
+    left: 100px;
+    font-size: 50px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 70px;
+    text-align: center;
+}
+
+.check {
+    border: 3px solid white;
+    display: inline-block;
+    width: 200px;
+    height: 70px;
+    position: absolute;
+    bottom: -700px;
+    left: 100px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.start-guessing-text {
+    position: absolute;
+    right: 250px;
+    font-size: 50px;
+    bottom: -530px;
+    text-align: right;
+    color: white;
+    font-weight: bold;
+}
+
+.score-container {
+    position: absolute;
+    right: 250px;
+    font-size: 50px;
+    bottom: -650px;
+    text-align: right;
+    color: white;
+    font-weight: bold;
+}
+
+.score {
+    display: inline;
+}
+
+.high-score {
+    position: absolute;
+    right: 250px;
+    font-size: 50px;
+    bottom: -750px;
+    text-align: right;
+    color: white;
+    font-weight: bold;
+}
+
+.high-score-child {
+    display: inline;
+}
