@@ -5,12 +5,10 @@ let avg;
 for (let i = 0; i < arr.length; i++) {
     sum = sum + arr[i];
     avg = sum / 2;
-
 }
 
 console.log(sum);
 console.log(avg);
-
 
 const obj = {
     one: 1,
@@ -148,7 +146,7 @@ console.log(city);
 // }
 
 for (let [player1, player2] of Object.values(game1['players'])) {
-    console.log(player1, player2);
+    console.log(`yoo ${player1}, ${player2}`);
 }
 
 const [player3, player4] = game1['players']
@@ -161,5 +159,20 @@ console.log(`goal keeper is: ${gk} and the rest are ${players}`);
 const allPlayers = [...player3, ...player4];
 console.log(allPlayers);
 
-const playersFinal = [...player3, 'cj',',miles','llillard']
+const playersFinal = [...player3, 'cj', ',miles', 'llillard']
 console.log(playersFinal);
+
+const c = 1 + '1'
+console.log(c);
+
+
+const scoredPlayers = Object.entries(game1['scored']);
+for (let [index, player] of scoredPlayers) {
+    console.log(`${Number(index) + 1}.${player}`);
+}
+
+const teamX = Object.entries(game1['odds']);
+for (let [team, score] of teamX) {
+    const str = team === 'x' ? 'draw' : 'win'
+    console.log(`the team is "${team}" which had a ${str} and their score is ${score}`);
+}
