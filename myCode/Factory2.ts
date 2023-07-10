@@ -27,8 +27,8 @@ class Whale extends Animal {
     }
 }
 
-function getInstanceOfFactory(instanceMethod: () => Page): Page {
-    switch(instanceMethod) {
-        case BasePage.static
-    }
-}
+// function getInstanceOfFactory(instanceMethod: () => Page): Page {
+//     switch(instanceMethod) {
+//         case BasePage.static
+//     }
+// }
