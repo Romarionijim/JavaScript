@@ -5,7 +5,7 @@
 const resturant = {
     name: 'classico italiano',
     location: 'italy',
-    catigories: ['italian, pizza,', 'viggie', 'pasta'],
+    catigories: ['italian', 'viggie', 'pasta'],
     mainMenu: ['fish', 'checkin', 'vegg'],
     openingHours: {
         thu: {
@@ -34,9 +34,9 @@ const [x, y, z] = arr
 
 console.log(x, y, z);
 
-let [first, , second] = resturant['catigories']
+let [first, second] = resturant['catigories']
 
-console.log(first, second);
+console.log(`firsstttt is ${first} and  ${second}`);
 
 [first, second] = [second, first]
 

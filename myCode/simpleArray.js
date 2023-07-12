@@ -7,6 +7,7 @@ console.log(arr);
 //splice mutates the array - chanegs the original array
 
 // console.log(arr.splice(2));
-console.log(arr.splice(-1));
-console.log(arr.splice(1,2));
-console.log(arr);
+// console.log(arr.splice(-1));
+// console.log(arr.splice(1,2));
+// console.log(arr);
+console.log(`[${arr.join(' -- ')}]`);

@@ -134,9 +134,9 @@ const newObj = {
 }
 
 
-const { name1, age, city } = newObj
+const { name1, age: el, city } = newObj
 console.log(name1);
-console.log(age);
+console.log(el);
 console.log(city);
 
 
