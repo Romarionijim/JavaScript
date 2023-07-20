@@ -5,7 +5,7 @@ console.log(checkEveryArrayIsPositive);
 
 const checkAtLeastOneElementIsPositive = arr.some(el => el > 0);
 console.log(checkAtLeastOneElementIsPositive);
-if(checkAtLeastOneElementIsPositive) {
+if(checkAtLeastOneElementIsPositive === true) {
     console.log('yooooo');
 } else {
     console.log('noooooooo');
