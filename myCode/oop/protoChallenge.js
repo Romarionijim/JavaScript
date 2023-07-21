@@ -21,3 +21,6 @@ car1.accelerate();
 car1.brake();
 car2.accelerate();
 car2.brake();
+
+console.log(Car.prototype === car1.__proto__);
+console.log(Car.prototype === car2.__proto__);
