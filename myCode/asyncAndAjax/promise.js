@@ -29,3 +29,9 @@ async function showUserInConsole() {
     const user = await response.json();
     console.log(user)
 }
+
+async function boredApi() {
+    const response = await fetch('https://www.boredapi.com/api/activity/');
+    const responseJson = await response.json();
+    console.log(responseJson)
+}
