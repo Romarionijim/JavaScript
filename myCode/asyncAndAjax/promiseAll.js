@@ -1,6 +1,6 @@
 const p1 = new Promise((resolve, reject) =>
     setTimeout(() => {
-        resolve('res')
+        reject('rejected')
     }, 1000),
 );
 
@@ -17,10 +17,11 @@ const p3 = new Promise((resolve, reject) =>
 );
 
 
-Promise.all([p1, p2, p3]).then(([result1, result2, result3]) => {
+Promise.allSettled([p1, p2, p3]).then(([result1, result2, result3]) => {
     console.log(result1);
     console.log(result2)
     console.log(result3)
-}).catch((error) => {
-    console.log(error)
 })
+//     .catch((error) => {
+//     console.log(error)
+// })
