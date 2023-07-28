@@ -8,4 +8,4 @@ const asyncFunc = async (country) => {
     console.log(responeJson)
 }
 
- asyncFunc('portugal')
+ await asyncFunc('portugal')
