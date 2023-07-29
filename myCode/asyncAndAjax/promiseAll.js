@@ -22,6 +22,6 @@ Promise.allSettled([p1, p2, p3]).then(([result1, result2, result3]) => {
     console.log(result2)
     console.log(result3)
 })
-//     .catch((error) => {
-//     console.log(error)
-// })
+    .catch((error) => {
+    console.log(error)
+})

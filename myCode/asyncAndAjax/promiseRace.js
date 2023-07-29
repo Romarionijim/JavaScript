@@ -12,7 +12,7 @@ const p2 = new Promise((resolve, reject) =>
 
 const p3 = new Promise((resolve, reject) =>
     setTimeout(() => {
-        resolve(1000)
+        reject({status: 404})
     }, 1000),
 );
 
